@@ -1,0 +1,74 @@
+
+/* .container { 
+	background: #dbd8e3; 
+} */
+
+.third-color { 
+	background: #352f44; 
+}
+
+.fourth-color { 
+	background: #2a2438; 
+}
+.container{
+    margin: 0;
+    position: absolute;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: rgba(32, 30, 30, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box .inputs{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.box .inputs label{
+    color: rgb(188, 201, 214);
+}
+.box .inputs input{
+    width: 100%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+span{
+    color: rgba(204, 202, 205, 0.833);
+    font-size: 30px;
+    padding-top: 20px;
+}
+.box .inputs .des textarea{
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.dd{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.box{
+    width: 100%;
+}
+.box button{
+    color: rgb(188, 201, 214);
+    background-color: #613ad8;
+    border: none;
+    box-shadow: 3px 3px 2px 2px rgba(2, 2, 4, 0.224);
+}
