@@ -172,10 +172,10 @@
     }
 }
 /* Mobile design */
-@media screen and (max-width: 425px){
+@media screen and (max-width: 450px){
     .btn .top {
         top: 8px;
-        left: 36%;
+        left: 35%;
         transform: translateX(-50%);
     }
 }
