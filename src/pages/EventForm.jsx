@@ -1,31 +1,57 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import '../Style/eventform.css'
 import { Form } from 'react-bootstrap';
 import { v4 as uuidv4 } from 'uuid';
 
-const EventForm = ({addEvent, handleDisplayForm}) => {
+const EventForm = ({addEvent, handleDisplayForm, selecteditem, handleUpdateList}) => {
+    const [id, setId] = useState("");
     const [topic, setTopic] = useState("");
     const [date, setDate] = useState("");
     const [time, setTime] = useState("");
     const [description, setDescription] = useState("");
 
+    useEffect(() => {
+        if (selecteditem) {
+            setId(selecteditem.id);
+            setTopic(selecteditem.topic);
+            setDate(selecteditem.date);
+            setTime(selecteditem.time);
+            setDescription(selecteditem.description);
+        } else {
+            setId("");
+            setTopic("");
+            setDate("");
+            setTime("");
+            setDescription("");
+        }
+    }, [selecteditem]);
+
     const handleSubmit = (e) => {
-       
 
-        const newEvent = { id:uuidv4(), topic, date, time, description };
-        addEvent(newEvent);
-
+        if(id){
+            const updatedItem = {id, topic, date, time, description };
+            handleUpdateList(updatedItem);
+        }
+        else{
+            const newEvent = { id:uuidv4(), topic, date, time, description };
+            addEvent(newEvent);
+        }
+        
+        setId("");
         setTopic("");
         setDate("");
         setTime("");
         setDescription("");
+
+        handleDisplayForm();
+        
     }
 
     return(
         <div >
            
             <span>What's your event about?</span>
-            <Form onSubmit={() =>{handleSubmit(); handleDisplayForm();}}>
+            <Form onSubmit={() =>{handleSubmit(); }} className="fr">
             <div className="box">
                 <div className="inputs">
                     <label>Event Topic</label>

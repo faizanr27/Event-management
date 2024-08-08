@@ -11,6 +11,7 @@ body{
 .fourth-color { 
 	background: #2a2438; 
 }
+
 .box-one{
     background-color: #2d2a3c;
     color: rgb(155, 134, 155);
@@ -37,34 +38,25 @@ body{
 @media screen and (max-width:1024px){
     .box-one{
         width: 50%;
+        height: 60%;
     }
 }
 @media screen and (max-width:768px){
     .box-one{
         width: 70%;
-    }
-}
-@media screen and (max-width:640px){
-    .box-one{
-        width: 80%;
-        height: 60%;
-    }
-}
-@media screen and (max-width:550px){
-    .box-one{
-        width: 80%;
         height: 70%;
     }
 }
-@media screen and (max-width:450px){
+
+@media screen and (max-width:500px){
     .box-one{
-        width: 90%;
-        height: 65%;
+        width: 85%;
+        height: 70%;
     }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:350px){
     .box-one{
         width: 90%;
-        height: 65%;
+        height: 70%;
     }
 }

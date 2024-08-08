@@ -1,8 +1,4 @@
 
-/* .container { 
-	background: #dbd8e3; 
-} */
-
 .third-color { 
 	background: #352f44; 
 }
@@ -119,35 +115,11 @@ span{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-34%,-476%);
+        transform: translate(-35%,-450%);
         width: 100%;
        }
 }
-@media screen and (max-width:640px) {
-    .box{
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-47%,25%);
-        width: 100%;
-        height: 100%;
-    }
-    .box button{
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-62%,95%);
-    }
-    .box-one span{
-        font-size: 2em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-33%,-417%);
-        width: 100%;
-       }
-}
-@media screen and (max-width:550px) {
+@media screen and (max-width:768px) {
     .box{
         position: relative;
         top: 50%;
@@ -167,17 +139,18 @@ span{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-36%,-478%);
+        transform: translate(-30%,-415%);
         width: 100%;
        }
 }
-@media screen and (max-width:450px) {
+
+@media screen and (max-width:500px) {
     .box{
         position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-47%,25%);
-        width: 100%;
+        width: 88%;
         height: 100%;
     }
     .box button{
@@ -187,21 +160,21 @@ span{
         transform: translate(-62%,95%);
     }
     .box-one span{
-        font-size: 1.8em;
+        font-size: 1.6em;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-38%,-468%);
+        transform: translate(-40%,-425%);
         width: 100%;
        }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:350px) {
     .box{
         position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-47%,25%);
-        width: 100%;
+        width: 80%;
         height: 100%;
     }
     .box button{
@@ -211,11 +184,11 @@ span{
         transform: translate(-62%,95%);
     }
     .box-one span{
-        font-size: 1.7em;
+        font-size: 1.5em;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-39%,-469%);
+        transform: translate(-45%,-450%);
         width: 100%;
        }
 }

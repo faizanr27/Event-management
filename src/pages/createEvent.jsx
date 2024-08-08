@@ -10,7 +10,7 @@ import {
     Typography,
   } from "@material-tailwind/react";
 
-const CreateEvent = ({handleDisplayButton, list}) => {
+const CreateEvent = ({handleDisplayButton, list, handleDelete, handleSelect}) => {
     return (
 <div className="btn">
     <div className="top">
@@ -22,14 +22,16 @@ const CreateEvent = ({handleDisplayButton, list}) => {
                 {list.length > 0 ? (
                     <div className="text-one">
                     <ul>
-                    {list.map((e, index) => (
-                        <li key={index} className="event-item">
+                    {list.map((e) => (
+                        <li key={e.id} className="event-item">
                             <h3>{e.topic}</h3>
                             <p>Date: {e.date}</p>
                             <p>Time: {e.time}</p>
                             <p>Description: {e.description}</p>
+                            <button className="btn-1" onClick={() => handleDelete(e.id)}>X</button>
+                            <button className="btn-2" onClick={() => handleSelect(e)}>Update</button>
                         </li>
-                    ))}
+                    )).reverse()}
                 </ul>
                 </div>
                     // <EventList list={list} />
