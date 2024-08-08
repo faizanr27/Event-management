@@ -144,7 +144,7 @@
 @media screen and (max-width: 1440px){
     .btn .top {
         top: 10px;
-        left: 25%;
+        left: 18%;
         transform: translateX(-50%);
     }
 }

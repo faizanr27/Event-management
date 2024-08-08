@@ -37,7 +37,7 @@
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    color: #857e9b;
+    color: #6f6d75;
     font-size: 16px;
     resize: none;
 }
@@ -74,6 +74,127 @@ span{
     box-shadow: 3px 3px 2px 2px rgba(2, 2, 4, 0.224);
 }
 
+
+@media screen and (max-width:1440px) {
+    .box{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47%,25%);
+        width: 100%;
+        height: 100%;
+    }
+    .box button{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-62%,95%);
+    }
+    .box-one span{
+        font-size: 2.5em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-26%,-431%);
+        width: 100%;
+       }
+}
+@media screen and (max-width:1024px) {
+    .box{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47%,25%);
+        width: 100%;
+        height: 100%;
+    }
+    .box button{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-62%,95%);
+    }
+    .box-one span{
+        font-size: 2em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-34%,-476%);
+        width: 100%;
+       }
+}
+@media screen and (max-width:640px) {
+    .box{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47%,25%);
+        width: 100%;
+        height: 100%;
+    }
+    .box button{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-62%,95%);
+    }
+    .box-one span{
+        font-size: 2em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-33%,-417%);
+        width: 100%;
+       }
+}
+@media screen and (max-width:550px) {
+    .box{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47%,25%);
+        width: 100%;
+        height: 100%;
+    }
+    .box button{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-62%,95%);
+    }
+    .box-one span{
+        font-size: 1.9em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-36%,-478%);
+        width: 100%;
+       }
+}
+@media screen and (max-width:450px) {
+    .box{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47%,25%);
+        width: 100%;
+        height: 100%;
+    }
+    .box button{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-62%,95%);
+    }
+    .box-one span{
+        font-size: 1.8em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-38%,-468%);
+        width: 100%;
+       }
+}
 @media screen and (max-width:425px) {
     .box{
         position: relative;
@@ -90,10 +211,11 @@ span{
         transform: translate(-62%,95%);
     }
     .box-one span{
+        font-size: 1.7em;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-43%,-470%);
+        transform: translate(-39%,-469%);
         width: 100%;
        }
 }
