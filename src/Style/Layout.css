@@ -28,15 +28,26 @@ body{
     align-items: center;
     box-shadow: 4px 4px 2px 2px #27205f;
 }
-
-@media screen and (max-width:768px){
+@media screen and (max-width:1440px){
     .box-one{
-        width: 70%;
+        width: 60%;
+        height: 70%;
     }
 }
 @media screen and (max-width:1024px){
     .box-one{
         width: 50%;
+    }
+}
+@media screen and (max-width:768px){
+    .box-one{
+        width: 70%;
+    }
+}
+@media screen and (max-width:640px){
+    .box-one{
+        width: 80%;
+        height: 60%;
     }
 }
 @media screen and (max-width:425px){

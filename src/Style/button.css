@@ -141,11 +141,10 @@
 .text-two {
     text-align: center;
 }
-/*tablet design*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1440px){
     .btn .top {
         top: 10px;
-        left: 28%;
+        left: 18%;
         transform: translateX(-50%);
     }
 }
@@ -157,6 +156,15 @@
         transform: translateX(-50%);
     }
 }
+/*tablet design*/
+@media screen and (max-width: 768px){
+    .btn .top {
+        top: 10px;
+        left: 28%;
+        transform: translateX(-50%);
+    }
+}
+
 /*Mobile design*/
 @media screen and (max-width: 425px){
     .btn .top {
