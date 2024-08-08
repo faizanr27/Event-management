@@ -123,7 +123,7 @@ span{
         width: 100%;
        }
 }
-@media screen and (max-width:640px) {
+/* @media screen and (max-width:640px) {
     .box{
         position: relative;
         top: 50%;
@@ -218,4 +218,4 @@ span{
         transform: translate(-39%,-469%);
         width: 100%;
        }
-}
+} */

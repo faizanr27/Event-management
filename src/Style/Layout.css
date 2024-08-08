@@ -42,9 +42,10 @@ body{
 @media screen and (max-width:768px){
     .box-one{
         width: 70%;
+        height: 70%;
     }
 }
-@media screen and (max-width:640px){
+/* @media screen and (max-width:640px){
     .box-one{
         width: 80%;
         height: 60%;
@@ -67,4 +68,4 @@ body{
         width: 90%;
         height: 65%;
     }
-}
+} */

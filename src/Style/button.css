@@ -164,18 +164,18 @@
         transform: translateX(-50%);
     }
 }
-@media screen and (max-width: 550px){
+/* @media screen and (max-width: 550px){
     .btn .top {
         top: 10px;
         left: 33%;
         transform: translateX(-50%);
     }
 }
-/* Mobile design */
+/*
 @media screen and (max-width: 450px){
     .btn .top {
         top: 8px;
         left: 35%;
         transform: translateX(-50%);
     }
-}
+} */
