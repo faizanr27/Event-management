@@ -164,8 +164,14 @@
         transform: translateX(-50%);
     }
 }
-
-/*Mobile design*/
+@media screen and (max-width: 550px){
+    .btn .top {
+        top: 10px;
+        left: 33%;
+        transform: translateX(-50%);
+    }
+}
+/* Mobile design */
 @media screen and (max-width: 425px){
     .btn .top {
         top: 8px;

@@ -50,6 +50,12 @@ body{
         height: 60%;
     }
 }
+@media screen and (max-width:550px){
+    .box-one{
+        width: 80%;
+        height: 70%;
+    }
+}
 @media screen and (max-width:425px){
     .box-one{
         width: 90%;
