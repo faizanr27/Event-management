@@ -28,3 +28,20 @@ body{
     align-items: center;
     box-shadow: 4px 4px 2px 2px #27205f;
 }
+
+@media screen and (max-width:768px){
+    .box-one{
+        width: 70%;
+    }
+}
+@media screen and (max-width:1024px){
+    .box-one{
+        width: 50%;
+    }
+}
+@media screen and (max-width:425px){
+    .box-one{
+        width: 90%;
+        height: 65%;
+    }
+}
