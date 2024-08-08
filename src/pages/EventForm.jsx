@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../Style/eventform.css'
 import { Form } from 'react-bootstrap';
+import { v4 as uuidv4 } from 'uuid';
 
 const EventForm = ({addEvent, handleDisplayForm}) => {
     const [topic, setTopic] = useState("");
@@ -11,7 +12,7 @@ const EventForm = ({addEvent, handleDisplayForm}) => {
     const handleSubmit = (e) => {
        
 
-        const newEvent = { topic, date, time, description };
+        const newEvent = { id:uuidv4(), topic, date, time, description };
         addEvent(newEvent);
 
         setTopic("");
